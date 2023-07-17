@@ -22,7 +22,7 @@ const Registration = () => {
         e.preventDefault();
         const { userName, email, password, confirmPassword } = input;
 
-        const res = await fetch("http://localhost:3000/register", {
+        const res = await fetch("https://login-registration-356l.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
