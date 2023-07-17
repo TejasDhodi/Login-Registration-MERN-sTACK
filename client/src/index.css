@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(125, 186, 247)0%, rgb(125, 186, 247)50%, rgb(199, 225, 250) 50%, rgb(199, 225, 250) 100%);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    box-shadow: 0 0 15px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    font-size: 2rem;
+    color: #000;
+}
+
+.home {
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    box-shadow: 0 0 15px;
+    padding: 30px;
+    background: rgb(199, 225, 250);
+    border-radius: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    margin-bottom: 1rem;
+    width: 60%;
+    padding: 10px 15px;
+    border: none;
+    background: rgb(125, 186, 247);
+    cursor: pointer;
+}
+
+.form_title {
+    text-align: center;
+}
+
+.input_fields {
+    margin: 0.7rem 0;
+}
+
+.input_fields label {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.input_fields input {
+    width: 100%;
+    height: 2rem;
+    padding: 10px 15px;
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+    border: none;
+}
