@@ -9,7 +9,7 @@ const Login = () => {
     const userLogin = async (e) => {
         e.preventDefault();
 
-        const res = await fetch("http://localhost:3000/login", {
+        const res = await fetch("https://login-registration-356l.onrender.com/login", {
             method: "POST",
             headers : {
                 "Content-Type": "application/json"
